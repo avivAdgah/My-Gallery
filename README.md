@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">My gallery</h1>
 
 <div align="center">
@@ -28,6 +26,7 @@
 
 - [Overview](#overview)
   - [Built With](#built-with)
+  - [Link](#link)
 
 <!-- OVERVIEW -->
 
@@ -40,3 +39,6 @@
 - [html](https://html.net/)
 - [Sass](https://sass-lang.com/)
 - [Bootstrap](https://getbootstrap.com/)
+
+### Link
+[Demo App](https://clinquant-crostata-6b74d0.netlify.app/)
