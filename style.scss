@@ -1,0 +1,63 @@
+@mixin background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.avatar {
+    .avatar-image {
+        background-image: url('/images/profilePhoto.png');
+        @include background();
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.images {
+    height: 50vh;
+    .images-one {
+        .first-image {
+            background-image: url('/images/photo1.png');
+            @include background();
+            height: 100px;
+            width: 100px;
+        }
+
+        .second-image {
+            background-image: url('/images/photo2.png');
+            @include background();
+            width: 200px;
+        }
+    }
+
+    .images-two{
+        .images-two-first{
+            .thrid-image{
+                background-image: url('/images/photo3.png');
+                @include background();
+                height: 100px;
+                width: 200px;
+            }
+            .images-third{
+                .fourth-image{
+                    background-image: url('/images/photo6.png');
+                @include background();
+                height: 100px;
+                width: 100px;
+                }
+                .fifth-image{
+                    background-image: url('/images/photo5.png');
+                @include background();
+                height: 100px;
+                width: 100px;
+                }
+            }
+        }
+        .images-two-second{
+            background-image: url('/images/photo_4.png');
+            @include background();
+            height: 200px;
+            width: 100px;
+        }
+    }
+}

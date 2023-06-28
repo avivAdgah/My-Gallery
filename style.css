@@ -1,0 +1,59 @@
+.avatar .avatar-image {
+  background-image: url("/images/profilePhoto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+}
+
+.images {
+  height: 50vh;
+}
+.images .images-one .first-image {
+  background-image: url("/images/photo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.images .images-one .second-image {
+  background-image: url("/images/photo2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+}
+.images .images-two .images-two-first .thrid-image {
+  background-image: url("/images/photo3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 200px;
+}
+.images .images-two .images-two-first .images-third .fourth-image {
+  background-image: url("/images/photo6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.images .images-two .images-two-first .images-third .fifth-image {
+  background-image: url("/images/photo5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+.images .images-two .images-two-second {
+  background-image: url("/images/photo_4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 100px;
+}/*# sourceMappingURL=style.css.map */
